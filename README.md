@@ -31,7 +31,8 @@ The visitor count is outputted to the serial monitor for logging/debugging.
   Can install the library via the Library Manager in Arduino IDE.
 
 # Authors
-Vince Vidallon
-Rebecca Connolly
-Sarah Hermiston
+- Vince Vidallon
+- Rebecca Connolly
+- Sarah Hermiston
+
 *University of Canterbury - ENEL200 Track Counter Project*
