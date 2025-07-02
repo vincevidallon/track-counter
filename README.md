@@ -11,4 +11,27 @@ This repository contains the source code for an electronic track counter built u
 - Debounced button handling for system reliability
 
 ## How It Works
-1. When the IR sensor detects an object, the system registers a HIGH signal and increments the counter.
+** Object Detection **
+When the IR sensor detects an object, the system registers a HIGH signal and increments the counter.
+
+** Display Toggle **
+Press the power button to toggle the LCD display between on or off. The count is still tracked even when the display is off.
+
+** Reset Button **
+When the reset button is pressed, the count is reset back to zero.
+
+** Trigger Output **
+When an object is detected, a brief 50ms HIGH signal is sent to the Arduino's pin 5 and the counter is incremented.
+
+** Serial Output **
+The visitor count is outputted to the serial monitor for logging/debugging.
+
+## Required Libraries
+- [hd44780 Library](https://docs.arduino.cc/libraries/hd44780/)
+  Can install the library via the Library Manager in Arduino IDE.
+
+# Authors
+Vince Vidallon
+Rebecca Connolly
+Sarah Hermiston
+*University of Canterbury - ENEL200 Track Counter Project*
